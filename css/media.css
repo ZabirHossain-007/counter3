@@ -1,0 +1,20 @@
+@media only screen and (max-width: 1024px) {
+    span {
+        font-size: 33px;
+        margin-bottom: 200px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    div > span {
+        font-size: 66px;
+        display: block;
+        width: 100% !important;
+        margin-bottom: 100px;
+    }
+    span {
+        font-size: 66px;
+    }
+    code {
+        margin-bottom: 100px;
+    }
+}
